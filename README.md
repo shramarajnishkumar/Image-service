@@ -36,7 +36,6 @@ source venv/bin/activate  # or venv\Scripts\activate on Windows
 # Install dependencies
 pip install -r requirements.txt
 ```
-
 ---
 
 ## 🛠️ API Endpoints
@@ -51,7 +50,6 @@ pip install -r requirements.txt
 ```bash
 curl -X POST "http://localhost:8000/remove-bg/" -F "file=@your_image.jpg" --output no_bg.png
 ```
-
 ---
 
 ### 2. `/auto-crop-passport-size/`
@@ -78,7 +76,6 @@ curl -X POST "http://localhost:8000/remove-bg/" -F "file=@your_image.jpg" --outp
 curl -X POST "http://localhost:8000/crop-passport-photo/?width=600&height=600" \
   -F "file=@your_photo.jpg" --output passport_photo.jpg
 ```
-
 ---
 
 ## 📁 Project Structure
